@@ -1,0 +1,54 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "eastus"
+    },
+    "projectName": {
+      "value": "pywordpress0502"
+    },
+    "dockerRegistryUrl": {
+      "value": "https://mcr.microsoft.com"
+    },
+    "mySqlVersion": {
+      "value": "5.7"
+    },
+    "mySqlServerName": {
+      "value": "pywordpress0502"
+    },
+    "mySqlServerStorageSizeMB": {
+      "value": 32768
+    },
+    "mySqlServerBackupRetentionDays": {
+      "value": 7
+    },
+    "mySqlServerGeoRedundantBackup": {
+      "value": "Disabled"
+    },
+    "mySqlServerStorageAutogrow": {
+      "value": "Enabled"
+    },
+    "mySqlServerSslEnforcement": {
+      "value": "Enabled"
+    },
+    "mySqlServerSku": {
+      "value": {
+        "name": "B_Gen5_1",
+        "tier": "Basic",
+        "capacity": 1,
+        "size": "32768",
+        "family": "Gen5"
+      }
+    },
+    "wordpressDatabaseName": {
+      "value": "wordpress"
+    },
+    "wordpressTitle": {
+      "value": "WordPress"
+    },
+    "wordpressLocale": {
+      "value": "en_US"
+    }
+  }
+}
