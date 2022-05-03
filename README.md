@@ -4,6 +4,7 @@ This WordPress on App Service deployment is based on the recent announcement of 
 
 To deploy this template, you will need the following:
 
+1. Git to clone this repo
 1. Azure Subscription
 1. [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
 1. [Azure Bicep](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/install)
